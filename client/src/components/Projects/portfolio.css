@@ -1,0 +1,99 @@
+.portfolio{
+
+   
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:40px 100px 40px 100px;
+    gap:50px;
+}
+.projects{
+
+    padding: 40px;
+    background-color: rgba(7, 7, 78, 0.616);
+    border-radius: 20px;
+    overflow: hidden !important;
+    
+}
+.project{
+    position: relative;
+    display: flex;
+
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+.project h3{
+
+    font-size:20px;
+    font-weight:600;
+    color: rgb(238, 236, 236)
+}
+.navigate{
+    position:absolute;
+    display: none;
+    width: 100%;
+    height: 30%; 
+    bottom: 58px;
+    z-index: 1000;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight:600;
+    background-color: rgba(36, 37, 38, 0.937);
+    color: whitesmoke;
+    font-weight:800;
+    font-family:roboto;
+
+    a{
+        flex:1;
+        display: flex;
+        height: 100%;
+    }
+   
+}
+.tools{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.tools p , .calci.tools p{
+
+    padding: 10px;
+}
+.tools p img , .calci .tools p img{
+
+    cursor: pointer;
+    border-radius: 50%;
+}
+.project:hover {
+
+    .navigate{
+        display: flex;
+    }
+}
+.code{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    flex: 1;
+    transition: 0.3s ease-in-out;
+
+}
+.code:hover , .viewProject:hover{
+    background-color: rgba(18, 19, 19, 0.827);
+}
+.viewProject{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+    flex: 1;
+    transition: 0.3s ease-in-out;
+}
+
