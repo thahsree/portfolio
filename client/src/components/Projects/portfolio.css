@@ -105,8 +105,11 @@
     }
     .projects{
         width: 90vw;
-        padding: 30px;
+        padding: 30px;   
         
-        
+    }
+    .aboutHeading{
+        text-wrap: nowrap;
+        font-size: 23px;
     }
 }

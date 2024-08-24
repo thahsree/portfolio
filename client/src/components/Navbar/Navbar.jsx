@@ -43,16 +43,19 @@ function Navbar(props) {
             </Headroom>
 
             <div className="navbarResponsive">
-                <SideNavbar style={{ width: "60vw",height:"100vh",border:"1px solid gray", background: " rgba(7, 7, 78, .8)" }}>
+                <SideNavbar style={{ width: "60vw", height: "100vh", border: "1px solid gray", background: " rgba(7, 7, 78, .9)" }}>
                     <MenuBar>
                         <NavItem>
-                            <Link to="/">New Order</Link>
+                            <Link className='link' spy={true} activeClass="active" to='home' offset={-200}>HOME</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/">Notification</Link>
+                            <Link className='link' spy={true} activeClass="active" to='about' offset={-150}>ABOUT ME</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/">New Order</Link>
+                            <Link className='link' spy={true} activeClass="active" to='portfolio' offset={-100}>PORTFOLIO</Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link className='link' spy={true} activeClass="active" to='contact' offset={50}>CONTACT</Link>
                         </NavItem>
                     </MenuBar>
                     <Contact>
