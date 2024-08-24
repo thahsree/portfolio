@@ -1,6 +1,5 @@
 .portfolio{
 
-   
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -35,14 +34,14 @@
     position:absolute;
     display: none;
     width: 100%;
-    height: 30%; 
+    height: 20%; 
     bottom: 58px;
     z-index: 1000;
     justify-content: space-evenly;
     align-items: center;
     font-weight:600;
-    background-color: rgba(36, 37, 38, 0.937);
-    color: whitesmoke;
+    background-color: rgba(235, 233, 225, 0.937);
+    color: black;
     font-weight:800;
     font-family:roboto;
 
@@ -71,6 +70,7 @@
 
     .navigate{
         display: flex;
+        
     }
 }
 .code{
@@ -79,13 +79,14 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    
+    border-right: 1px solid black;
     flex: 1;
     transition: 0.3s ease-in-out;
 
 }
 .code:hover , .viewProject:hover{
-    background-color: rgba(18, 19, 19, 0.827);
+    color:  rgba(235, 233, 225, 0.937);
+    background-color: black;
 }
 .viewProject{
     

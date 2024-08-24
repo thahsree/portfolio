@@ -1,0 +1,87 @@
+.contact {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: black;
+    padding: 70px;
+
+    h3{
+        font-size: 26px;
+        font-family: Roboto;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+}
+
+.contact-items {
+
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: rgba(7, 7, 78, 0.616);
+    width: 70%;
+    align-items: center;
+    border-radius: 20px;
+    padding: 50px;
+
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 59px;
+
+
+}
+
+.input input {
+
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    color: whitesmoke;
+
+}
+
+.input input:focus,
+textarea:focus {
+    outline: none !important;
+
+}
+
+textarea {
+    color: whitesmoke !important;
+    height: 150px;
+    /* Set the desired height */
+    padding: 20px;
+    /* Optional: Add padding for extra space inside the textarea */
+    font-size: 16px;
+    /* Optional: Increase the font size for better readability */
+    resize: none;
+    /* Optional: Prevents the user from resizing the textarea */
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.submitButton {
+
+    padding: 10px 15px;
+    background-color: black;
+    color: rgba(245, 245, 245, 0.697);
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.submitButton:hover{
+
+    background-color: rgba(0, 0, 0, 0.478);
+    color: rgba(245, 245, 245, 0.697);
+    
+}

@@ -73,7 +73,7 @@ function Skills(props) {
                 variants={fadeIn("down", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: true, amount: .1 }}
+                viewport={{ once: false, amount: .1 }}
 
                 className="gridParent">
                 <div className="grid grid-cols-1 mobile:grid-cols-2 tablet:grid-cols-4 laptop:grid-cols-5 gap-4">
@@ -84,7 +84,7 @@ function Skills(props) {
                             <MotionAnimate 
                             key={i}
                             animation='fadeInUp'
-                            reset={false}
+                            reset={true}
                             distance={50}
                             delay={.2}
                             speed={1}

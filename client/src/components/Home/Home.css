@@ -42,7 +42,7 @@
 .static-text {
     font-size: 40px;
     font-weight: 400;
-    
+
 }
 
 .dynamic-text {
@@ -74,7 +74,6 @@
     height: 130%;
     width: 100%;
     border-left: 2px solid rgba(219, 215, 215, 0.73)
-
 }
 
 
@@ -105,7 +104,7 @@
     height: 100%;
 }
 
-.social_icon{
+.social_icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,13 +115,15 @@
     background: linear-gradient(to right, rgba(231, 232, 234, 0.181), rgba(0, 0, 0, 0.2));
 
 }
-.social_icon i{
+
+.social_icon i {
     cursor: pointer;
     font-size: 2rem;
     color: rgba(219, 215, 215, 0.73);
     transition: .5s ease-in-out;
 }
-.social_icon i:hover{
+
+.social_icon i:hover {
     color: rgb(106, 68, 68);
     cursor: pointer;
     transform: scale(1.1);
@@ -139,14 +140,52 @@
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,75,75,1) 0%, rgba(86,110,114,0.7904411764705882) 93%);
-color: whitesmoke;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 75, 75, 1) 0%, rgba(86, 110, 114, 0.7904411764705882) 93%);
+    color: whitesmoke;
     font-weight: 600;
     cursor: pointer;
-    transition: opacity .2s ease-in-out; /* Transition applied to opacity */
+    transition: opacity .2s ease-in-out;
+    /* Transition applied to opacity */
 }
-.resume button:hover{
-    opacity: .6; /* Change opacity on hover */
 
+.resume button:hover {
+    opacity: .6;
+    /* Change opacity on hover */
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .Home {
+        padding: 50px;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .personalDetails{
+
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .social {
+
+        flex-direction: row;
+    }
+    .intro{
+
+        gap: 0;
+    }
+    .static-text {
+
+        font-size: 30px;
+    }
+    .name{
+
+        font-size: 40px;
+        line-height: 40px;
+        height: 40px;
+    }
 }

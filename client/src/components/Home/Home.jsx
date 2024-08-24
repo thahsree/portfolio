@@ -40,7 +40,21 @@ function Home() {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            style={{ fontSize: '2em', display: 'inline-block', color: 'gray' }}
+                            style={{
+                                fontSize: '2em',
+                                display: 'inline-block',
+                                color: 'gray',
+                                // Media query for smaller screens
+                                '@media (max-width: 768px)': {
+                                    fontSize: '30px',
+                                    
+                                },
+                                // Media query for larger screens
+                                '@media (min-width: 1024px)': {
+                                    fontSize: '40px'
+                                    
+                                },
+                            }}
                         />
                     </div>
                     <div className="resume">
