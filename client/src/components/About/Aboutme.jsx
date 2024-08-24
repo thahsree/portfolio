@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from 'react';
+import { MotionAnimate } from 'react-motion-animate';
 import { fadeIn } from "../../varients";
 import Skills from "../Skills/Skills";
 import './aboutme.css';
@@ -13,7 +14,7 @@ function Aboutme(props) {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.7 }}
 
                 className="aboutHeading">
                 <i className="fa-solid fa-user"></i>ABOUT ME
@@ -28,15 +29,13 @@ function Aboutme(props) {
                 className="aboutContent">
                 Passionate MERN Stack Developer with expertise in MongoDB, Express.js, React.js, and Node.js. Proven track record of translating ideas into robust, user-friendly web applications. Skilled in crafting responsive front-end interfaces and optimizing back-end processes. Committed to clean, maintainable code and staying updated with industry trends. A proactive learner dedicated to continuous improvement. Let's build something great together!
             </motion.div>
-            <motion.div
-                variants={fadeIn("up", 0.2)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
 
-                className="aboutHeading">
+            <MotionAnimate animation='fadeInUp' reset={true}>
+            <div className="aboutHeading">
                 MY SKILLS
-            </motion.div>
+            </div>
+            </MotionAnimate>
+            
             <Skills/>
 
         </div>

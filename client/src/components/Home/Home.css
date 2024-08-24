@@ -191,4 +191,7 @@
         line-height: 40px;
         height: 40px;
     }
+    .type-animation{
+        font-size: 22px !important;
+    }
 }

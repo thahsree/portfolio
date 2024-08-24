@@ -45,17 +45,9 @@ function Home() {
                                 fontSize: '2em',
                                 display: 'inline-block',
                                 color: 'gray',
-                                // Media query for smaller screens
-                                '@media (max-width: 768px)': {
-                                    fontSize: '20px',
-                                    
-                                },
-                                // Media query for larger screens
-                                '@media (min-width: 1024px)': {
-                                    fontSize: '30px'
-                                    
-                                },
                             }}
+
+                            className="type-animation"
                         />
                     </div>
                     <div className="resume">

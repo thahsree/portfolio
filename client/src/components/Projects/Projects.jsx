@@ -94,7 +94,7 @@ function Projects(props) {
         <div id='portfolio' className='portfolio'>
 
 
-            <MotionAnimate animation='fadeInUp' reset={false}>
+            <MotionAnimate animation='fadeInUp' reset={true}>
                 <div className="aboutHeading">
 
                     <i className="fa-solid fa-code"></i>
