@@ -97,4 +97,16 @@
     flex: 1;
     transition: 0.3s ease-in-out;
 }
+@media only screen and (max-width: 800px) {
 
+    .portfolio{
+
+        width: 100vw;
+    }
+    .projects{
+        width: 90vw;
+        padding: 30px;
+        
+        
+    }
+}

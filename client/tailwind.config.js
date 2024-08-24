@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'mobile': '480px', // Custom mobile size
+      'mobile': '380px', // Custom mobile size
       'tablet': '640px',
       'laptop': '1024px',
       'desktop': '1280px',

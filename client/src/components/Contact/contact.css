@@ -85,3 +85,30 @@ textarea {
     color: rgba(245, 245, 245, 0.697);
     
 }
+
+@media only screen and (max-width: 800px) {
+    .contact{
+        width: 90vw;
+        padding: 0;
+        margin: 15px;
+        gap: 10px;
+       
+        h3{
+            font-size: 23px;
+        }
+    }
+    .contact-items {
+
+        width: 100%;
+        padding: 20px;
+        height: max-content;
+        gap: 0px;
+    }
+    .input{
+        width: 100vw;
+        
+    }
+    .input input{
+        width: 100%;
+    }
+}

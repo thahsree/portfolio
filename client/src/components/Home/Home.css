@@ -159,7 +159,7 @@
 
 
     .Home {
-        padding: 50px;
+        padding: 10px;
         width: 100vw;
         height: 100vh;
         overflow: hidden;
@@ -174,7 +174,7 @@
        
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 40px;
         flex-direction: row;
     }
     .intro{

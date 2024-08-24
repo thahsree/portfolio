@@ -92,7 +92,7 @@ function Skills(props) {
                                 <div className="skill-item" >
 
                                     <h3>{item.skillname}</h3>
-                                    <img className="w-20 h-20 md:w-32 lg:w-48" src={item.skillImage} alt="" />
+                                    <img className="w-20 h-20 mobile:w-15 mobile:h-15 lg:w-48" src={item.skillImage} alt="" />
                                 </div>
                             </MotionAnimate>
                         ))

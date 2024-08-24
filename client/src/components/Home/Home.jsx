@@ -18,6 +18,7 @@ function Home() {
                 initial="hidden"
                 animate='visible'
                 transition={{ duration: 0.5, delay: 0.26 }}
+                
             >
                 <div className="personalDetails">
                     <div className="intro">
@@ -46,12 +47,12 @@ function Home() {
                                 color: 'gray',
                                 // Media query for smaller screens
                                 '@media (max-width: 768px)': {
-                                    fontSize: '30px',
+                                    fontSize: '20px',
                                     
                                 },
                                 // Media query for larger screens
                                 '@media (min-width: 1024px)': {
-                                    fontSize: '40px'
+                                    fontSize: '30px'
                                     
                                 },
                             }}

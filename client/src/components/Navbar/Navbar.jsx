@@ -43,7 +43,7 @@ function Navbar(props) {
             </Headroom>
 
             <div className="navbarResponsive">
-                <SideNavbar style={{ width: "250px",height:"100vh", background: " rgba(7, 7, 78, 0.616)" }}>
+                <SideNavbar style={{ width: "60vw",height:"100vh",border:"1px solid gray", background: " rgba(7, 7, 78, .8)" }}>
                     <MenuBar>
                         <NavItem>
                             <Link to="/">New Order</Link>

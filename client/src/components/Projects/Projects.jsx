@@ -108,7 +108,7 @@ function Projects(props) {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
 
-                className="grid grid-cols-1 mobile:grid-cols-2 tablet:grid-cols-2 laptop:grid-cols-3 gap-4 projects"
+                className="grid grid-cols-1 mobile:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-4 projects"
             >
                 {
                     projects.map((item, i) => (
