@@ -66,8 +66,7 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        
-        width: 100vw;
+        z-index: 500;
         height: 100vh;
      
     }

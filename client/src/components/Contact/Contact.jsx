@@ -4,7 +4,7 @@ import './contact.css';
 function Contact(props) {
     return (
         <div className='contact'>
-            <div className="contact-items">
+            <div className="contact-items"  onClick={()=> alert("YO")}>
                 <h3>GET IN TOUCH</h3>
 
                 <div className="input">
