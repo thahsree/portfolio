@@ -43,7 +43,7 @@ function Navbar(props) {
             </Headroom>
 
             <div className="navbarResponsive">
-                <SideNavbar style={{ width: "60vw", height: "100vh", border: "1px solid gray", background: " rgba(7, 7, 78, .9)" }}>
+                <SideNavbar style={{ width: "250px",zIndex: 1000, height: "100vh", border: "1px solid gray", background: " rgba(7, 7, 78, .9)" }}>
                     <MenuBar>
                         <NavItem>
                             <Link className='link' spy={true} activeClass="active" to='home' offset={-200}>HOME</Link>
@@ -83,8 +83,9 @@ function Navbar(props) {
                                     fontSize: "14px",
                                 }}
                             >
-                                <span> 1900 - 888</span>
-                                <span>24/7 Support</span>
+                                
+                                <span>  CONTACT</span>
+                                <span>+971569672162</span>
                             </p>
                         </div>
                     </Contact>

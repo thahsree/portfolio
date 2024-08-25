@@ -15,6 +15,10 @@
     text-align: end;
     width: 550px;
 }
+.social_icon{
+
+    z-index: 500;
+}
 
 .intro {
 

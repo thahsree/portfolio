@@ -18,7 +18,7 @@ function Home() {
                 initial="hidden"
                 animate='visible'
                 transition={{ duration: 0.5, delay: 0.26 }}
-                
+
             >
                 <div className="personalDetails">
                     <div className="intro">
@@ -69,16 +69,20 @@ function Home() {
 
                 <div className="social">
                     <div className="insta social_icon">
-                        <a target="_blank" href="https://www.instagram.com/tha.shree_/"><i
-                            className="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/tha.shree_/">
+                            <i className="fa-brands fa-instagram"></i>
+                        </a>
                         <div className="overlay"></div>
                     </div>
                     <div className="git social_icon">
-                        <a target="_blank" href="https://github.com/thahsree"><i className="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://github.com/thahsree" aria-label="GitHub">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
                     </div>
                     <div className="linkedin social_icon">
-                        <a target="_blank" href="https://www.linkedin.com/in/thashreefch/"><i
-                            className="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/thashreefch/" aria-label="LinkedIn">
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
                     </div>
                 </div>
 
