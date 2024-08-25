@@ -15,10 +15,7 @@
     text-align: end;
     width: 550px;
 }
-.social_icon{
 
-    z-index: 500;
-}
 
 .intro {
 
@@ -106,6 +103,10 @@
     flex-direction: column;
     width: 350px;
     height: 100%;
+}
+.social_icon{
+
+    z-index: 500;
 }
 
 .social_icon {

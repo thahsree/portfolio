@@ -3,12 +3,12 @@
     justify-content: space-between;
     height: 100px;
     width: 100vw;
-    background-color: #000;
+    background-color: #000 !important;
     align-items: center;
     /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.41); */
     position: relative;
     top: 0;
-    z-index: 1000;
+    z-index: 9999;
 }
 .nav-locations ul{
     display: flex;
