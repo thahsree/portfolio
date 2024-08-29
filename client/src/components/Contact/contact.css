@@ -65,7 +65,7 @@ textarea:hover {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    background-color:#5C5C5C;
+    background-color:#090928;
     width: 50%;
     height: max-content;
     align-items: center;
@@ -140,27 +140,31 @@ textarea {
         width: 90vw;
         padding: 0;
         margin: 15px;
-        gap: 10px;
+        height: 100vh;
         margin-top: 70px;
        
         h3{
             font-size: 23px;
+            margin-top: 20px;
         }
     }
     .contact-items {
 
         width: 100%;
-        padding: 50px;
         height: max-content;
-        gap: 0px;
+        padding: 0px;
+        height: max-content;
+        gap: 0px !important;
         height: max-content;
     }
     form{
+
         width: max-content;
     }
     .input{
         width: 100vw;
-        
+        margin: 0;
+        padding: 20px 50px 20px 50px;        
     }
     .input input{
         width: 100%;
