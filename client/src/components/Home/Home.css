@@ -204,3 +204,10 @@
         font-size: 22px !important;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .type-animation{
+        font-size: 16px !important;
+    }
+}
