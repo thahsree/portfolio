@@ -44,8 +44,17 @@
     }
     .gridParent{
         width: 100%;
+        background-color: #0F0F50;
     }
     .skill-item h3{
         font-size: 13px;
+    }
+    .skill-item{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .skill-item h3{
+        font-size: 10px;
     }
 }
