@@ -76,7 +76,7 @@ function Skills(props) {
                 viewport={{ once: false, amount: .1 }}
 
                 className="gridParent">
-                <div className="grid grid-cols-1 mobile:grid-cols-2 tablet:grid-cols-4 laptop:grid-cols-5 gap-4">
+                <div className="grid grid-cols-2 mobile:grid-cols-2 tablet:grid-cols-4 laptop:grid-cols-5 gap-4">
 
                     {
                         skills.map((item, i) => (
@@ -92,7 +92,7 @@ function Skills(props) {
                                 <div className="skill-item" >
 
                                     <h3>{item.skillname}</h3>
-                                    <img className="w-20 h-20 mobile:w-15 mobile:h-15 lg:w-48" src={item.skillImage} alt="" />
+                                    <img className="w-20 h-20 mobile:w-15 mobile:h-15 lg:w-48 lg:h-48" src={item.skillImage} alt="" />
                                 </div>
                             </MotionAnimate>
                         ))

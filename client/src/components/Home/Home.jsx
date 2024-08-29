@@ -8,7 +8,6 @@ function Home() {
 
     return (
         <div className="Home" id='home'>
-
             <motion.div
 
                 variants={{

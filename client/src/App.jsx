@@ -9,30 +9,46 @@ import Projects from "./components/Projects/Projects";
 function App() {
 
 
-    // useEffect(() => {
-    //   function handleContextMenu(e) {
-    //     e.preventDefault(); // Prevents the default right-click menu from appearing
-    //   }
-  
-    //   // Add the event listener to the component's root element
-    //   const rootElement = document.getElementById('my-component');
-    //   rootElement.addEventListener('contextmenu', handleContextMenu);
-  
-    //   // Remove the event listener when the component is unmounted
-    //   return () => {
-    //     rootElement.removeEventListener('contextmenu', handleContextMenu);
-    //   };
-    // }, [])
-  
+  // useEffect(() => {
+  //   function handleContextMenu(e) {
+  //     e.preventDefault(); // Prevents the default right-click menu from appearing
+  //   }
+
+  //   // Add the event listener to the component's root element
+  //   const rootElement = document.getElementById('my-component');
+  //   rootElement.addEventListener('contextmenu', handleContextMenu);
+
+  //   // Remove the event listener when the component is unmounted
+  //   return () => {
+  //     rootElement.removeEventListener('contextmenu', handleContextMenu);
+  //   };
+  // }, [])
+
 
   return (
     <div id='my-component'>
-      
-      <Navbar />
-      <Home />
-      <Aboutme />
-      <Projects/>
-      <Contact/>
+
+      <section className="navSection">
+
+        <Navbar />
+      </section>
+
+      <section className='homeSection'>
+        <Home />
+
+      </section>
+      <section>
+        <Aboutme />
+
+      </section>
+      <section>
+        <Projects />
+
+      </section>
+      <section>
+
+        <Contact />
+      </section>
     </div>
   );
 }

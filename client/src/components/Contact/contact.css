@@ -16,19 +16,66 @@
         font-weight: 600;
     }
 }
+/* Apply to all input types that may use autofill */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    background-color: transparent; /* Make background transparent */
+    color: #fff; /* Ensure text color is visible against your background */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+}
+
+/* Chrome, Safari, and Edge (WebKit browsers) */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+    background-color: transparent !important; /* Keep background transparent */
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important; /* Remove autofill background */
+    color: #fff !important; /* Ensure text color remains visible */
+}
+
+/* Firefox */
+input:-moz-autofill,
+textarea:-moz-autofill {
+    background-color: transparent !important; /* Keep background transparent */
+    color: #fff !important; /* Ensure text color remains visible */
+}
+
+/* Ensure focus doesn't change background color */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    background-color: transparent; /* Maintain transparency */
+    outline: none; /* Optional: remove default outline */
+    border-color: #fff; /* Optional: change border color on focus */
+}
+
+/* Optional: Prevent background change on hover */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+    background-color: transparent; /* Maintain transparency */
+    border-color: #fff; /* Optional: change border color on hover */
+}
 
 .contact-items {
 
     display: flex;
-    gap: 40px;
+    gap: 10px;
     flex-direction: column;
-    background-color: rgba(7, 7, 78, 0.616);
-    width: 70%;
+    background-color:#5C5C5C;
+    width: 50%;
+    height: max-content;
     align-items: center;
     border-radius: 20px;
-    padding: 50px;
+    padding-top: 20px;
 
+}
 
+form{
+    width: 100%;
 }
 
 .input {
@@ -103,9 +150,13 @@ textarea {
     .contact-items {
 
         width: 100%;
-        padding: 20px;
+        padding: 50px;
         height: max-content;
         gap: 0px;
+        height: max-content;
+    }
+    form{
+        width: max-content;
     }
     .input{
         width: 100vw;

@@ -1,17 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&family=Young+Serif&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
- 
+
+body {
+
   user-select: none;
   background-color: #000;
   font-family: 'Poppins', sans-serif;
   color: rgba(219, 215, 215, 0.73);
 }
-html{
+
+html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+
+  scroll-snap-align: center;
+}
+.homeSection{
+  height: calc(100vh - 100px) !important;
+}
+.navSection{
+  height:100px;
 }

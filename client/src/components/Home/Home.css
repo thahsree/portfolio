@@ -181,6 +181,10 @@
         margin: 0;
         padding: 40px;
         flex-direction: row;
+       
+    }
+    .social_icon{
+        z-index: 0 !important;
     }
     .intro{
 
