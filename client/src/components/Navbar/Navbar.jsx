@@ -29,7 +29,7 @@ function Navbar(props) {
                             <Link className='link' spy={true} activeClass="active" to='home' offset={-200}>HOME</Link>
                             <Link className='link' spy={true} activeClass="active" to='about' offset={-150}>ABOUT ME</Link>
                             <Link className='link' spy={true} activeClass="active" to='portfolio' offset={-100}>PORTFOLIO</Link>
-                            <Link className='link' spy={true} activeClass="active" to='contact' offset={50}>CONTACT</Link>
+                            <Link className='link' spy={true} activeClass="active" to='contact' offset={-60}>CONTACT</Link>
                         </ul>
                     </div>
 

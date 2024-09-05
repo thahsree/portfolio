@@ -2,6 +2,7 @@
 import './App.css';
 import Aboutme from "./components/About/Aboutme";
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
@@ -41,13 +42,13 @@ function App() {
         <Aboutme />
 
       </section>
-      <section>
-        <Projects />
-
-      </section>
+      <Projects />
       <section>
 
         <Contact />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

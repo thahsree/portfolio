@@ -16,6 +16,7 @@
         font-weight: 600;
     }
 }
+
 /* Apply to all input types that may use autofill */
 input[type="text"],
 input[type="email"],
@@ -170,3 +171,4 @@ textarea {
         width: 100%;
     }
 }
+

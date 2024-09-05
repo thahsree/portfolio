@@ -43,7 +43,7 @@ function Home() {
                             style={{
                                 fontSize: '2em',
                                 display: 'inline-block',
-                                color: 'gray',
+                                color: 'whitesmoke',
                             }}
 
                             className="type-animation"

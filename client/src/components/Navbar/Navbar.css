@@ -3,7 +3,7 @@
     justify-content: space-between;
     height: 100px;
     width: 100vw;
-    background-color: #000 !important;
+    background-color: #0c0c1d !important;
     align-items: center;
     /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.41); */
     position: relative;
@@ -25,7 +25,7 @@
 }
 .nav-locations ul .link{
     text-decoration: none;
-    color: rgba(219, 215, 215, 0.73);
+    color: whitesmoke;
     height: 100%;
     font-weight:300;
     font-size: 1.2rem;
@@ -44,8 +44,8 @@
 
 .active, .nav-locations ul .link:hover{
 
-    border-bottom: 3px solid rgb(106, 68, 68) !important;
-    color:rgb(106, 68, 68) !important;
+    border-bottom: 3px solid orange !important;
+    color:orange !important;
 }
 
 @media only screen and (max-width: 800px){
