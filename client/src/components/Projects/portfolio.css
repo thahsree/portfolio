@@ -123,3 +123,57 @@
         object-fit: cover;
     }
 }
+
+@media only screen and (max-width: 800px) {
+
+    .wrapper{
+      
+        display: flex !important;
+        flex-direction: column;
+        gap: 0;
+        padding: 20px;
+        margin: 0;
+    }
+    .textContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: justify;
+    
+        h2{
+            font-size: 40px;
+            text-wrap: nowrap;
+    
+        }
+        h3{
+            text-wrap: nowrap;
+            font-size: 15px;
+            text-align: center;
+        }
+    
+        p{
+            font-size: 15px;
+            color: gray;
+    
+        }
+        .buttons{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            background-color: orange;
+            padding: 10px  15px;
+            gap: 20px;
+            width:auto;
+            border:none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    
+        button:hover{
+            background-color: rgb(209, 149, 36);
+    
+        }
+    }
+}

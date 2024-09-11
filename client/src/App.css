@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: none !important;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
   background: linear-gradient( 180deg ,#0c0c1d, #111132);
   font-family: 'Poppins', sans-serif;
   color: rgba(219, 215, 215, 0.73);
+  
+
 }
 
 html {

@@ -107,7 +107,7 @@ const Single = ({ item }) => {
 
 
     return (
-        <section id='Portfolio'>
+        <section id='portfolio'>
             <div className="container">
                 <div className="wrapper">
                     <div className="imageContainer" ref={ref}>

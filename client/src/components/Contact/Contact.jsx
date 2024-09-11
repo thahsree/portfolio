@@ -51,7 +51,7 @@ function Contact(props) {
 
 
     return (
-        <motion.div className='contact' variants={variants} initial="initial" whileInView="animate">
+        <motion.div id='contact' className='contact' variants={variants} initial="initial" whileInView="animate">
 
             <div className="typo">
                 <h1>LETS WORK TOGETHER</h1>

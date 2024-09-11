@@ -175,6 +175,8 @@
 
         margin-top: 40px;
         padding: 30px;
+
+        align-items: center !important;
     }
     .social {
        
@@ -201,7 +203,12 @@
         line-height: 40px;
         height: 40px;
     }
+    .wrapper{
+        width: 100vw !important;
+        margin: 0px !important;
+    }
     .type-animation{
+        
         font-size: 22px !important;
     }
 }
