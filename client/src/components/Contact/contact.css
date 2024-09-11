@@ -1,174 +1,70 @@
 .contact {
-
+    height: 100vh;
+    max-width: 1366px;
+    margin: auto;
+    padding: 0px 40px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center !important;
+}
+.typo{
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+    font-size: 50px;
+    text-wrap: nowrap;
+}
+
+.contact .formContainer {
+
+    flex: 1;
+    position: relative;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    color: black;
-    padding: 70px;
-    z-index: 1000;
-
-    h3{
-        font-size: 26px;
-        font-family: Roboto;
-        color: whitesmoke;
-        font-weight: 600;
-    }
-}
-
-/* Apply to all input types that may use autofill */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-    background-color: transparent; /* Make background transparent */
-    color: #fff; /* Ensure text color is visible against your background */
-    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-}
-
-/* Chrome, Safari, and Edge (WebKit browsers) */
-input:-webkit-autofill,
-textarea:-webkit-autofill {
-    background-color: transparent !important; /* Keep background transparent */
-    -webkit-box-shadow: 0 0 0 1000px transparent inset !important; /* Remove autofill background */
-    color: #fff !important; /* Ensure text color remains visible */
-}
-
-/* Firefox */
-input:-moz-autofill,
-textarea:-moz-autofill {
-    background-color: transparent !important; /* Keep background transparent */
-    color: #fff !important; /* Ensure text color remains visible */
-}
-
-/* Ensure focus doesn't change background color */
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-    background-color: transparent; /* Maintain transparency */
-    outline: none; /* Optional: remove default outline */
-    border-color: #fff; /* Optional: change border color on focus */
-}
-
-/* Optional: Prevent background change on hover */
-input[type="text"]:hover,
-input[type="email"]:hover,
-input[type="password"]:hover,
-textarea:hover {
-    background-color: transparent; /* Maintain transparency */
-    border-color: #fff; /* Optional: change border color on hover */
-}
-
-.contact-items {
-
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    background-color:#090928;
-    width: 50%;
-    height: max-content;
-    align-items: center;
-    border-radius: 20px;
-    padding-top: 20px;
-
-}
-
-form{
+    padding: 40px;
     width: 100%;
 }
+.contact .formContainer .phoneSvg {
+    z-index: -1;
+    stroke: orange;
+    stroke-width: 0.1;
+    position: absolute;
+    margin: auto;
+}
+.dummy{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+.contact .formContainer form {
 
-.input {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100;
-    padding: 59px;
-
-
+    width: 60%;
 }
 
-.input input {
-
-    padding: 10px 20px;
-    width: 100%;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid gray;
-    color: whitesmoke;
-
-}
-
-.input input:focus,
-textarea:focus {
-    outline: none !important;
-
-}
-
-textarea {
-    color: whitesmoke !important;
-    height: 150px;
-    /* Set the desired height */
-    padding: 20px;
-    /* Optional: Add padding for extra space inside the textarea */
-    font-size: 16px;
-    /* Optional: Increase the font size for better readability */
-    resize: none;
-    /* Optional: Prevents the user from resizing the textarea */
-    background-color: transparent;
-    border: 1px solid gray;
-}
-
-.submitButton {
-
-    padding: 10px 15px;
-    background-color: black;
-    color: rgba(245, 245, 245, 0.697);
-    border-radius: 20px;
-    cursor:pointer;
-}
-
-.submitButton:hover{
-
-    background-color: rgba(0, 0, 0, 0.478);
-    color: rgba(245, 245, 245, 0.697);
+.contact .formContainer input,
+.contact .formContainer textarea {
     
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-@media only screen and (max-width: 800px) {
-    .contact{
-        width: 90vw;
-        padding: 0;
-        margin: 15px;
-        height: 100vh;
-        margin-top: 70px;
-       
-        h3{
-            font-size: 23px;
-            margin-top: 20px;
-        }
-    }
-    .contact-items {
-
-        width: 100%;
-        height: max-content;
-        padding: 0px;
-        height: max-content;
-        gap: 0px !important;
-        height: max-content;
-    }
-    form{
-
-        width: max-content;
-    }
-    .input{
-        width: 100vw;
-        margin: 0;
-        padding: 20px 50px 20px 50px;        
-    }
-    .input input{
-        width: 100%;
-    }
+.contact .formContainer button {
+    padding: 20px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    color: whitesmoke;
 }
-

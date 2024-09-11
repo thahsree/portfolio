@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
+import Lottie from "lottie-react";
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import devAnimation from "./devAnimation.json";
 import './Home.css';
 
 
 function Home() {
+
+
 
     return (
         <div className="Home" id='home'>
@@ -54,7 +58,9 @@ function Home() {
                     </div>
                 </div>
             </motion.div>
-
+            <div>
+                <Lottie animationData={devAnimation} loop={true} />
+            </div>
             <motion.div
 
                 variants={{
@@ -86,7 +92,6 @@ function Home() {
                 </div>
 
             </motion.div>
-
 
         </div>
     );
