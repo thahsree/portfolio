@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: center;
     background-color: #3B3C36;
-    color:lightgray;
+    color:black;
+    font-weight: 500;
 }
 .bg{
 
@@ -14,7 +15,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #2C3E50;
+    background-color: orange;
 }
 .links{
     position: absolute;

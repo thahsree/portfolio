@@ -28,7 +28,7 @@ function Home() {
                         <div className="static-text">Hello I'm</div>
                         <div className="name">THASHREEF</div>
                     </div>
-                    <div className="wrapper">
+                    <div className="wrapperForText">
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially

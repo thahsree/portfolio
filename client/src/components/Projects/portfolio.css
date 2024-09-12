@@ -127,6 +127,7 @@
 
     .container{
         padding-top: 100px;
+
         
     }
     .imageContainer{
@@ -137,10 +138,10 @@
     }
     .wrapper{
       
+        margin: 0;
         display: flex !important;
         flex-direction: column;
         gap: 0;
-        padding: 30px;
         margin: 10px;
     }
     .progress{
@@ -152,6 +153,7 @@
         align-items: center;
         gap: 10px;
         text-align: justify;
+        
     
         h2{
             font-size: 40px;
@@ -170,9 +172,9 @@
     
         }
         .buttons{
-            width: 70%;
+            width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
         button{
             background-color: orange;

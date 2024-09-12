@@ -33,7 +33,7 @@
     line-height: 90px;
 }
 
-.wrapper {
+.wrapperForText {
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -172,7 +172,7 @@
     }
     .personalDetails{
 
-
+        margin-top: 30px;
         align-items: center !important;
     }
     .wrapper{
@@ -206,7 +206,7 @@
         line-height: 40px;
         height: 40px;
     }
-    .wrapper{
+    .wrapperForText{
         width: 100vw !important;
         margin: 0px !important;
     }

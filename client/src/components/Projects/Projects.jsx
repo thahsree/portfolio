@@ -107,7 +107,7 @@ const Single = ({ item }) => {
 
 
     return (
-        <section id='portfolio'>
+        <section >
             <div className="container">
                 <div className="wrapper">
                     <div className="imageContainer" ref={ref}>
@@ -156,7 +156,7 @@ const Projects = () => {
     });
 
     return (
-        <div className="portfolio" ref={ref}>
+        <div className="portfolio" ref={ref} id='portfolio'>
             <div className="progress">
                 <h1>Featured Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
