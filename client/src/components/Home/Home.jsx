@@ -58,7 +58,7 @@ function Home() {
                     </div>
                 </div>
             </motion.div>
-            <div>
+            <div className="svgAnime">
                 <Lottie animationData={devAnimation} loop={true} />
             </div>
             <motion.div

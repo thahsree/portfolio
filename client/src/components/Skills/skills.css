@@ -39,12 +39,12 @@
 @media only screen and (max-width: 800px) {
 
     .skills-section{
-        background-color: #000;
+        background-color:transparent;
         width: 100vw;
     }
     .gridParent{
         width: 100%;
-        background-color: #0F0F50;
+        background-color: transparent;
     }
     .skill-item h3{
         font-size: 13px;

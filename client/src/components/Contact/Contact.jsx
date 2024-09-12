@@ -26,6 +26,9 @@ function Contact(props) {
             .then(
                 (response) => {
                     console.log('SUCCESS!', response.status, response.text);
+                    setFromEmail('');
+                    setFromName('')
+                    setMessage('')
                 },
                 (err) => {
                     console.log('FAILED...', err);
@@ -79,10 +82,10 @@ function Contact(props) {
                     </svg>
                 </motion.div>
                 
-                <motion.form action={sendEmail} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 3, duration: 1 }}>
-                    <input type="text" required placeholder='Name' />
-                    <input type="email" required placeholder='Email' />
-                    <textarea rows={8} required placeholder='Message' />
+                <motion.form className='form' onSubmit={sendEmail} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 3, duration: 1 }}>
+                    <input value={fromName} onChange={(e)=> setFromName(e.target.value)} type="text" required placeholder='Name' />
+                    <input value={fromEmail} onChange={(e)=> setFromEmail(e.target.value)} type="email" required placeholder='Email' />
+                    <textarea value={message} onChange={ (e) => setMessage(e.target.value)} rows={8} required placeholder='Message' />
                     <button>Submit</button>
 
                 </motion.form>
