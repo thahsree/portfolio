@@ -5,7 +5,7 @@
     height: 70vh;
     padding: 70px 70px 70px 170px;
 
-    color: whitesmoke;
+    color: gray;
     justify-content: space-between;
     font-family: roboto;
 
@@ -40,7 +40,9 @@
     font-family: monospace;
 
 }
-
+.type-animation{
+    color: gray !important;
+}
 .static-text {
     font-size: 40px;
     font-weight: 400;
@@ -55,7 +57,7 @@
 
 .dynamic-text li {
 
-    color: whitesmoke;
+    color: gray;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
@@ -81,7 +83,7 @@
 
 .typing-animation li span::after {
     animation: typing 3.5s steps(20) infinite;
-    background-color: whitesmoke;
+    background-color: gray;
 }
 
 @keyframes typing {
@@ -125,7 +127,7 @@
 .social_icon i {
     cursor: pointer;
     font-size: 2rem;
-    color: whitesmoke;
+    color: gray;
     transition: .5s ease-in-out;
 }
 
@@ -148,7 +150,7 @@
     border: none;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 75, 75, 1) 0%, rgba(86, 110, 114, 0.7904411764705882) 93%);
-    color: whitesmoke;
+    color: gray;
     font-weight: 600;
     cursor: pointer;
     transition: opacity .2s ease-in-out;
