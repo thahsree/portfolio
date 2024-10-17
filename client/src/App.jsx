@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div id='my-component'>
+    <div id='my-component' className='bg-card'>
 
       <section className="navSection">
 

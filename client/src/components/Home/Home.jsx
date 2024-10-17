@@ -47,7 +47,8 @@ function Home() {
                             style={{
                                 fontSize: '2em',
                                 display: 'inline-block',
-                                color: 'green',
+                                color: 'white',
+                                
                             }}
 
                             className="type-animation"
@@ -58,7 +59,7 @@ function Home() {
                     </div>
                 </div>
             </motion.div>
-            <div className="svgAnime">
+            <div className="svgAnime ">
                 <Lottie animationData={devAnimation} loop={true} />
             </div>
             <motion.div

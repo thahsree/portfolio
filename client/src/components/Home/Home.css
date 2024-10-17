@@ -13,13 +13,19 @@
 
 .personalDetails {
 
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 550px;
+    height: 100%;
+    font-weight: 900;
+    color: gray;
+    
 }
 
 
 .intro {
-
+    
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -31,6 +37,7 @@
     font-size: 80px;
     height: 90px;
     line-height: 90px;
+    color: gray;
 }
 
 .wrapperForText {
@@ -45,7 +52,7 @@
 }
 .static-text {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 900;
 
 }
 
@@ -174,6 +181,7 @@
     }
     .personalDetails{
 
+        display: block;
         margin-top: 30px;
         align-items: center !important;
     }

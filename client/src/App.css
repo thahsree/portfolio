@@ -10,11 +10,10 @@
 body {
 
   user-select: none;
-  background: linear-gradient( 180deg ,#0c0c1d, #010125);
   font-family: 'Poppins', sans-serif;
   color: gray;
   overflow-x: hidden;
-  
+  background: linear-gradient(135deg, #ffffff, #f2f1f4);
 
 }
 
