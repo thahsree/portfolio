@@ -111,7 +111,7 @@ function Skills(props) {
                     delay={.2}
                     speed={1}
                     >
-                        <div className="skill-item" >
+                        <div className="skill-item hover:scale-110 transition-transform duration-300 ease-in-out" >
 
                             <h3>{item.skillname}</h3>
                             <img className="w-10 h-10 mobile:w-15 mobile:h-15 lg:w-48 lg:h-48" src={item.skillImage} alt="" />
