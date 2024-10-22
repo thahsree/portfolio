@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import resume from '.././../assets/THASHREEF[Resume02].pdf';
 import devAnimation from "./devAnimation.json";
 import './Home.css';
-
 
 function Home() {
 
@@ -48,17 +48,27 @@ function Home() {
                                 fontSize: '2em',
                                 display: 'inline-block',
                                 color: 'white',
-                                
+
                             }}
 
                             className="type-animation"
                         />
                     </div>
-                    <div className="resume">
-
+                    <div className="flex gap-3">
+                        <a href={resume} download="Resume">
+                            <div className="border border-gray-700 p-4 w-max rounded-full cursor-pointer  hover:bg-slate-200 ease-in-out transition-colors duration-300 mobile:p-2 tablet:p-3">
+                                <p className="font-extrabold text-sm ">Download Resume</p>
+                            </div>
+                        </a>
+                        <a href="#contact">
+                            <div className="border border-gray-700 p-4 w-max rounded-full cursor-pointer  hover:bg-slate-200 ease-in-out transition-colors duration-300 mobile:p-2 tablet:p-3">
+                                <p className="font-extrabold text-sm">Contact Me</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </motion.div>
+
             <div className="svgAnime ">
                 <Lottie animationData={devAnimation} loop={true} />
             </div>
