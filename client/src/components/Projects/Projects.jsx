@@ -124,7 +124,7 @@ const Single = ({ item }) => {
         <section >
             <div className="container">
                 <div className="wrapper">
-                    <div className="imageContainer" ref={ref}>
+                    <div className="imageContainer h-[70%]" ref={ref}>
 
                         <img src={item.image} alt="" />
                     </div>
