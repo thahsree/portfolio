@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import resume from '.././../assets/THASHREEF[Resume02].pdf';
+import resume from '.././../assets/THASHREEF[Resume03].pdf';
 import devAnimation from "./devAnimation.json";
 import './Home.css';
 
